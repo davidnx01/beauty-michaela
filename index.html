@@ -1,0 +1,403 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Beauty salón Michaela · kozmetické ošetrenia v Trenčíne — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre Beauty salón Michaela, Hviezdoslavova 4, Trenčín.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231c2730'/%3E%3Cpath d='M9 24V8l7 10 7-10v16' fill='none' stroke='%23f5f6f4' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f6f4; --sheet:#fcfdfc; --panel:#e8ecea;
+  --ink:#1c2730; --ink-2:#2a3844; --mute:#5b6770; --mute-l:#a4b0b8;
+  --berry:#a3304f; --skin:#ecd2c1;
+  --line:rgba(28,39,48,.16); --line-s:rgba(28,39,48,.5); --line-l:rgba(245,246,244,.2);
+  --serif:"Bellefair","Times New Roman",serif; --sans:"Figtree",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--sans);font-size:16px;line-height:1.6;color:var(--ink);background:var(--paper)}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--berry);outline-offset:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;font-synthesis:none}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:20px}
+.eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.tn{font-variant-numeric:tabular-nums}
+
+.notice{background:var(--ink);color:#e4eaee;font-size:13px;line-height:1.45;padding:8px 0}
+.notice b{font-weight:700;color:#fff;letter-spacing:.04em;text-transform:uppercase;font-size:12px}
+
+/* milimetrová stupnica */
+.ruler{height:16px;color:var(--ink);background:
+  linear-gradient(currentColor,currentColor) 0 0/100% 1px no-repeat,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/60px 15px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/30px 9px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/6px 5px repeat-x;opacity:.55}
+.ruler.l{color:var(--paper);opacity:.5}
+
+header.top{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+header.top .wrap{display:flex;align-items:center;gap:26px;min-height:72px}
+.brand{text-decoration:none;line-height:1}
+.brand b{display:block;font-family:var(--serif);font-weight:400;font-size:34px;letter-spacing:.01em}
+.brand small{display:block;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-top:4px}
+nav.main{margin-left:auto;display:flex;gap:28px}
+nav.main a{font-size:14.5px;font-weight:500;text-decoration:none;padding:12px 0;background:linear-gradient(var(--berry),var(--berry)) 0 calc(100% - 8px)/0 1px no-repeat;transition:background-size .2s}
+nav.main a:hover{background-size:100% 1px}
+.tel{font-weight:600;font-size:16px;text-decoration:none;white-space:nowrap;font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;background:var(--berry);color:#fff;font-weight:600;font-size:15.5px;text-decoration:none;border-radius:2px;transition:background .2s}
+.btn:hover{background:#8b2542}
+.btn.o{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn.o:hover{background:var(--ink);color:var(--paper)}
+.btn.ol{background:transparent;color:var(--paper);box-shadow:inset 0 0 0 1px var(--mute-l)}
+.btn.ol:hover{background:var(--paper);color:var(--ink)}
+header.top .btn{min-height:44px;padding:0 20px}
+
+/* hero */
+.hero .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:44px;align-items:center;padding-block:46px 40px}
+.hero h1{font-size:clamp(46px,6vw,82px);line-height:1;letter-spacing:-.005em;margin-top:16px}
+.hero .lead{margin-top:20px;font-size:18px;max-width:27em;color:var(--ink-2)}
+.hero .cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}
+.proof{margin-top:38px;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+.proof div{padding:14px 14px 14px 0;border-bottom:1px solid var(--line)}
+.proof div:nth-child(even){padding-left:16px;border-left:1px solid var(--line)}
+.proof b{display:block;font-family:var(--serif);font-weight:400;font-size:36px;line-height:1;font-variant-numeric:tabular-nums}
+.proof span{display:block;font-size:13px;line-height:1.35;color:var(--mute);margin-top:5px}
+.map{position:relative;width:100%;aspect-ratio:560/530;background:var(--sheet);border:1px solid var(--line-s);container-type:inline-size}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.mk{position:absolute;width:26%;line-height:1.25;transform:translateY(-9px)}
+.mk.r{left:71.4%}
+.mk.l{right:calc(100% - 28.6%);text-align:right}
+.mk .z{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--berry)}
+.mk .t{display:block;font-family:var(--serif);font-size:19px;line-height:1.15;margin-top:5px}
+.mk .v{display:block;font-size:12.5px;color:var(--mute);margin-top:3px;font-variant-numeric:tabular-nums}
+.mk .v b{font-weight:600;color:var(--ink)}
+.map-note{margin-top:10px;font-size:12.5px;color:var(--mute)}
+.zones{display:none}
+
+.slot{background:var(--panel);border-block:1px solid var(--line)}
+.slot .wrap{display:flex;gap:16px 32px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:18px}
+.slot p{max-width:46em;font-size:15.5px}
+.slot p b{font-weight:600}
+.slot small{display:block;font-size:12.5px;color:var(--mute);margin-top:2px}
+
+/* cenník */
+.price{background:var(--ink);color:var(--paper);padding:0 0 76px}
+.price .head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:40px;align-items:end;padding-block:58px 34px}
+.price h2{font-size:clamp(52px,7.4vw,104px);line-height:.92}
+.price .head p{color:#c4ced5;font-size:15.5px}
+.price .head p b{color:#fff;font-weight:600}
+.sheet{background:var(--sheet);color:var(--ink);border-radius:2px;box-shadow:0 26px 50px rgba(0,0,0,.35)}
+.sheet .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 26px;border-bottom:2px solid var(--ink)}
+.sheet .bar b{font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.sheet .bar span{font-size:12.5px;color:var(--mute)}
+.cols{columns:2;column-gap:0;padding:0 0 6px}
+.grp{break-inside:avoid;padding:0 26px}
+.cols .grp:nth-child(odd){border-right:1px solid var(--line)}
+.grp summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;padding:22px 0 10px;border-bottom:1px solid var(--ink)}
+.grp summary::-webkit-details-marker{display:none}
+.gn{font-family:var(--serif);font-size:27px;line-height:1.1}
+.gc{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.grp ul{list-style:none;padding:0 0 12px}
+.grp li{display:grid;grid-template-columns:minmax(0,1fr) auto 92px;gap:14px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.35}
+.grp li:last-child{border-bottom:0}
+.grp .d{font-size:12.5px;color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums}
+.grp .p{font-weight:600;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sheet .foot{padding:14px 26px 18px;border-top:2px solid var(--ink);font-size:13px;color:var(--mute);display:flex;justify-content:space-between;gap:12px 28px;flex-wrap:wrap}
+.sheet .foot a{color:var(--ink);font-weight:600}
+
+/* o salóne */
+.about{padding:84px 0 76px}
+.about .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:start}
+.about blockquote{text-wrap:balance;font-family:var(--serif);font-size:clamp(34px,4.6vw,60px);line-height:1.08}
+.about blockquote footer{margin-top:18px;font-family:var(--sans);font-size:13px;color:var(--mute);letter-spacing:.02em}
+.spec{border-top:1px solid var(--ink)}
+.spec h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding-top:16px}
+.spec ul{list-style:none;padding:8px 0 4px}
+.spec li{font-family:var(--serif);font-size:28px;line-height:1.15;padding:10px 0;border-bottom:1px solid var(--line)}
+.spec p{margin-top:14px;font-size:14.5px;color:var(--ink-2)}
+.spec small{display:block;margin-top:6px;font-size:12.5px;color:var(--mute)}
+
+/* hodnotenie */
+.rate{background:var(--panel);border-block:1px solid var(--line);padding:70px 0}
+.rate h2{font-size:clamp(40px,5vw,64px);line-height:1}
+.scale{position:relative;margin:42px 0 12px;height:54px}
+.scale .r{position:absolute;left:0;right:0;top:0;height:16px;color:var(--ink);background:
+  linear-gradient(currentColor,currentColor) 0 0/100% 1px no-repeat,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/20% 15px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/10% 9px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/2% 5px repeat-x;border-right:1px solid currentColor}
+.scale i{position:absolute;top:22px;font-style:normal;font-size:12px;font-weight:600;color:var(--mute);transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.scale i:first-of-type{transform:none}
+.scale i:last-of-type{transform:translateX(-100%)}
+.scale .m{position:absolute;right:0;top:-14px;width:0;height:0;border:7px solid transparent;border-top:12px solid var(--berry);border-bottom:0;transform:translateX(50%)}
+.scale .mv{position:absolute;right:0;top:-46px;transform:translateX(50%);font-family:var(--serif);font-size:30px;color:var(--berry);line-height:1}
+.rgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:1px solid var(--ink)}
+.rgrid div{padding:18px 18px 4px 0}
+.rgrid div+div{padding-left:18px;border-left:1px solid var(--line)}
+.rgrid b{display:block;font-family:var(--serif);font-weight:400;font-size:46px;line-height:1;font-variant-numeric:tabular-nums}
+.rgrid span{display:block;margin-top:8px;font-size:14px;color:var(--ink-2);line-height:1.4}
+.rgrid small{display:block;margin-top:4px;font-size:12.5px;color:var(--mute)}
+.rate .note{margin-top:22px;font-size:12.5px;color:var(--mute)}
+
+/* kontakt */
+.contact{padding:80px 0 70px}
+.contact h2{font-size:clamp(46px,6vw,80px);line-height:1}
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:34px;border-top:1px solid var(--ink)}
+.cgrid>div{padding:24px 28px 8px 0}
+.cgrid>div+div{padding-left:28px;border-left:1px solid var(--line)}
+.cgrid h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
+.cgrid p{font-size:17px;line-height:1.55}
+.cgrid .big{font-family:var(--serif);font-size:clamp(30px,3.2vw,42px);line-height:1.05;text-decoration:none;display:inline-block;font-variant-numeric:tabular-nums}
+.cgrid .note{display:block;margin-top:8px;font-size:13px;color:var(--mute);line-height:1.5}
+.links{margin-top:14px;display:flex;flex-wrap:wrap;gap:4px 22px}
+.links a{font-size:14.5px;font-weight:600;padding:11px 0;text-decoration:none;background:linear-gradient(var(--berry),var(--berry)) 0 calc(100% - 7px)/100% 1px no-repeat;transition:background-size .2s}
+.links a:hover{background-size:100% 3px}
+.cgrid ul{list-style:none;padding:0;font-size:15.5px}
+.cgrid li{padding:6px 0;border-bottom:1px solid var(--line)}
+
+footer.bot{background:var(--ink);color:var(--mute-l);font-size:14px;padding:26px 0 30px}
+footer.bot .wrap{display:flex;justify-content:space-between;gap:10px 28px;flex-wrap:wrap;align-items:baseline}
+footer.bot b{font-family:var(--serif);font-weight:400;font-size:24px;color:var(--paper)}
+.mbar{display:none}
+
+@media (max-width:1040px){
+  .hero .wrap{grid-template-columns:1fr;gap:32px}
+  .map{max-width:720px;margin-inline:auto}
+  .price .head{grid-template-columns:1fr;gap:16px;padding-block:44px 26px}
+  .about .wrap{grid-template-columns:1fr;gap:40px}
+  .rgrid{grid-template-columns:1fr 1fr}
+  .rgrid div:nth-child(3){padding-left:0;border-left:0}
+  .rgrid div:nth-child(n+3){border-top:1px solid var(--line);margin-top:18px}
+  .cgrid{grid-template-columns:1fr}
+  .cgrid>div,.cgrid>div+div{padding:22px 0 12px;border-left:0;border-bottom:1px solid var(--line)}
+  nav.main{display:none}
+  header.top .tel{margin-left:auto}
+}
+@media (max-width:720px){
+  .cols{columns:1}
+  .cols .grp:nth-child(odd){border-right:0}
+  .grp{padding:0 16px}
+  .grp summary{padding:18px 0 14px;min-height:56px;align-items:center;border-bottom:0}
+  .grp[open] summary{border-bottom:1px solid var(--ink)}
+  .grp+.grp{border-top:1px solid var(--line)}
+  .gc{display:none}
+  .gn::after{content:"";display:inline-block;width:9px;height:9px;margin-left:12px;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:translateY(-3px) rotate(45deg);transition:transform .2s}
+  .grp summary{justify-content:space-between}
+  .grp[open] .gn::after{transform:translateY(1px) rotate(-135deg)}
+  .grp summary{flex-direction:row}
+  .sheet .bar,.sheet .foot{padding-inline:16px}
+  .grp li{grid-template-columns:minmax(0,1fr) auto;row-gap:0}
+  .grp .n{grid-column:1/-1}
+  .grp .d{grid-column:1;grid-row:2}
+  .grp .p{grid-column:2;grid-row:2}
+}
+@media (max-width:640px){
+  .notice{font-size:12.5px}
+  header.top .tel,header.top .btn{display:none}
+  .brand b{font-size:30px}
+  .hero .wrap{padding-block:30px 28px}
+  .mk{width:29%;transform:translateY(-7px)}
+  .mk .z{font-size:10px;letter-spacing:.08em}
+  .mk .t,.mk .v{display:none}
+  .mk.r{left:70%}
+  .mk.l{right:calc(100% - 30%)}
+  .zones{display:block;margin-top:14px;border-top:1px solid var(--ink)}
+  .zones div{display:grid;grid-template-columns:92px 1fr auto;gap:8px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.3}
+  .zones b{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--berry)}
+  .zones span:last-child{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .proof b{font-size:32px}
+  .rgrid{grid-template-columns:1fr}
+  .rgrid div,.rgrid div+div,.rgrid div:nth-child(3){padding:16px 0 12px;border-left:0;margin-top:0;border-top:0;border-bottom:1px solid var(--line)}
+  .about{padding:56px 0}
+  .spec li{font-size:25px}
+  .scale i:nth-of-type(2),.scale i:nth-of-type(4){display:none}
+  footer.bot{padding-bottom:calc(86px + env(safe-area-inset-bottom))}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--ink);padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -1px 0 rgba(255,255,255,.12)}
+  .mbar a{display:flex;align-items:center;justify-content:center;min-height:56px;color:var(--paper);font-weight:600;font-size:16px;text-decoration:none}
+  .mbar a:first-child{background:var(--berry);color:#fff}
+  .mbar a+a{border-left:1px solid rgba(255,255,255,.14)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="notice"><div class="wrap"><b>Neoficiálny návrh</b> — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Beauty salón Michaela — na začiatok"><b>Michaela</b><small>Beauty salón · Trenčín</small></a>
+    <nav class="main" aria-label="Hlavné menu"><a href="#cennik">Cenník</a><a href="#o-salone">O salóne</a><a href="#hodnotenie">Hodnotenie</a><a href="#kontakt">Kontakt</a></nav>
+    <a class="tel" href="tel:+421918481340">+421 918 481 340</a>
+    <a class="btn" href="tel:+421918481340">Zavolať</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Kozmetický salón · Hviezdoslavova 4, Trenčín</p>
+      <h1>Beauty salón Michaela</h1>
+      <p class="lead">Ošetrenia pleti a tela na prvom poschodí na Hviezdoslavovej ulici. Termín si dohodnete telefonicky, hodiny sú na objednanie.</p>
+      <div class="cta"><a class="btn" href="tel:+421918481340">Zavolať +421 918 481 340</a><a class="btn o" href="https://www.notino.sk/salony/beauty-salon-michaela/" target="_blank" rel="noopener">Objednať cez Notino</a></div>
+      <div class="proof">
+        <div><b>5,0</b><span>Orly Kozmetiky, 50 hodnotení</span></div>
+        <div><b>98 %</b><span>odporúča na Facebooku, 51 hodnotení</span></div>
+        <div><b>2022–25</b><span>zlatá medaila a laureát, Orly Kozmetiky</span></div>
+        <div><b>14K</b><span>sledovateľov na Facebooku</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="map" role="group" aria-label="Mapa tváre: zóny a ošetrenia z cenníka">
+        <svg viewBox="40 20 560 530" aria-hidden="true" focusable="false">
+          <defs>
+            <pattern id="g1" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8 0H0V8" fill="none" stroke="#1c2730" stroke-opacity=".055" stroke-width=".6"/></pattern>
+            <pattern id="g2" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1c2730" stroke-opacity=".11" stroke-width=".8"/></pattern>
+            <linearGradient id="fd" x1="0" y1="0" x2="0" y2="1"><stop offset=".64" stop-color="#fff"/><stop offset=".96" stop-color="#000"/></linearGradient>
+            <mask id="fm" maskUnits="userSpaceOnUse" x="40" y="20" width="560" height="530"><rect x="40" y="20" width="560" height="530" fill="url(#fd)"/></mask>
+          </defs>
+          <rect x="40" y="20" width="560" height="530" fill="url(#g1)"/><rect x="40" y="20" width="560" height="530" fill="url(#g2)"/>
+          <g mask="url(#fm)" fill="none" stroke="#1c2730" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path fill="#ecd2c1" stroke="none" d="M356 112C364 132 366 150 364 164C364 172 360 178 358 184C366 200 386 222 398 236C400 244 392 250 380 252C380 258 384 264 384 270C382 274 376 277 372 279C378 282 382 288 380 292C374 296 370 300 370 306C376 314 378 326 372 336C366 344 354 348 344 350C346 372 344 400 340 436C364 442 386 452 406 468L406 560L198 560L198 476C226 468 244 460 262 446C256 420 262 360 262 300C250 292 240 280 232 262C206 210 204 136 228 100C262 54 338 66 356 112Z"/>
+            <path fill="#1c2730" fill-opacity=".09" stroke="none" d="M356 112C338 66 262 54 228 100C204 136 206 210 232 262C240 280 250 292 258 306L264 300C272 270 280 240 278 226C278 214 276 198 282 180C300 140 330 120 356 112Z"/>
+            <path stroke-width="1" stroke-opacity=".45" d="M334 96C304 78 262 84 244 114M320 106C292 98 262 108 250 134M302 118C282 118 264 130 256 152M240 156C230 194 236 232 252 270M290 136C274 146 268 162 266 180"/>
+            <g transform="translate(18 12)"><path fill="#ecd2c1" d="M262 70C262 40 226 28 206 44C188 60 196 92 222 98C238 102 256 94 262 70Z"/>
+            <path stroke-width="1" stroke-opacity=".5" d="M214 52C228 46 246 54 250 70M208 66C222 62 238 70 240 84M214 82C224 80 232 84 236 92"/></g>
+            <path d="M356 112C364 132 366 150 364 164C364 172 360 178 358 184C366 200 386 222 398 236C400 244 392 250 380 252C380 258 384 264 384 270C382 274 376 277 372 279C378 282 382 288 380 292C374 296 370 300 370 306C376 314 378 326 372 336C366 344 354 348 344 350"/>
+            <path d="M344 350C346 372 344 400 340 436"/>
+            <path d="M344 350C322 344 292 326 274 292"/>
+            <path d="M262 300C262 346 258 404 262 446"/>
+            <path d="M356 112C338 66 262 54 228 100C204 136 206 210 232 262C240 280 250 292 258 306"/>
+            <path d="M356 112C330 120 300 140 282 180C276 198 278 214 278 226"/>
+            <path stroke-width="1.3" d="M280 226C264 224 258 244 268 258C274 266 282 258 280 246"/>
+            <path stroke-width="1" stroke-opacity=".6" d="M270 238C266 244 270 250 274 250"/>
+            <path stroke-width="1.5" d="M338 177C344 170 354 170 361 177C354 183 344 183 338 177Z"/>
+            <circle cx="352" cy="177" r="3.4" fill="#1c2730" stroke="none"/>
+            <path stroke-width="1.8" d="M333 162C343 154 356 154 364 162"/>
+            <path stroke-width="1" d="M359 172L364 168M361 175L366 173M356 171L360 166"/>
+            <path stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity=".7" d="M368 250C354 260 350 274 356 288"/>
+            <path d="M262 446C284 458 318 452 340 436"/>
+            <path d="M340 436C364 442 386 452 406 468"/>
+            <path d="M262 446C244 460 226 468 198 476"/>
+            <path stroke-width="1" stroke-opacity=".5" d="M300 454C304 470 300 486 296 500M326 449C334 466 344 482 350 496"/>
+          </g>
+          <g fill="none" stroke="#1c2730" stroke-opacity=".5" stroke-width=".9">
+            <polyline points="338,124 372,96 436,96"/><polyline points="350,177 372,170 436,170"/><polyline points="356,268 436,268"/>
+            <polyline points="322,270 204,270"/><polyline points="304,380 204,380"/><polyline points="330,452 204,452"/>
+          </g>
+          <g fill="#a3304f"><circle cx="338" cy="124" r="4"/><circle cx="350" cy="177" r="4"/><circle cx="356" cy="268" r="4"/><circle cx="322" cy="270" r="4"/><circle cx="304" cy="380" r="4"/><circle cx="330" cy="452" r="4"/></g>
+          <g fill="none" stroke="#a3304f" stroke-opacity=".45"><circle cx="338" cy="124" r="9"/><circle cx="350" cy="177" r="9"/><circle cx="356" cy="268" r="9"/><circle cx="322" cy="270" r="9"/><circle cx="304" cy="380" r="9"/><circle cx="330" cy="452" r="9"/></g>
+        </svg>
+        <div class="mk r" style="top:14.3%"><span class="z">Čelo</span><span class="t">LED terapia</span><span class="v"><b>80–120 €</b> · 30 min</span></div>
+        <div class="mk r" style="top:28.3%"><span class="z">Oči</span><span class="t">Vrásky okolo očí</span><span class="v"><b>170 €</b> · 1 h</span></div>
+        <div class="mk r" style="top:46.8%"><span class="z">Nasolabiálne ryhy</span><span class="t">Ryhy + pery</span><span class="v"><b>200 €</b> · 1 h</span></div>
+        <div class="mk l" style="top:47.2%"><span class="z">Líca</span><span class="t">Aquafacial · tvár</span><span class="v"><b>69 €</b> · 1 h</span></div>
+        <div class="mk l" style="top:67.9%"><span class="z">Krk</span><span class="t">Rádiofrekvencia</span><span class="v"><b>150 €</b> · 1 h</span></div>
+        <div class="mk l" style="top:81.5%"><span class="z">Dekolt</span><span class="t">Rádiofrekvencia</span><span class="v"><b>150 €</b> · 1 h 20</span></div>
+      </div>
+      <div class="zones" aria-label="Zóny a ošetrenia">
+        <div><b>Čelo</b><span>LED terapia</span><span>80–120 €</span></div>
+        <div><b>Oči</b><span>Vrásky okolo očí</span><span>170 €</span></div>
+        <div><b>Nasolabiálne ryhy</b><span>Ryhy + pery</span><span>200 €</span></div>
+        <div><b>Líca</b><span>Aquafacial · tvár</span><span>69 €</span></div>
+        <div><b>Krk</b><span>Rádiofrekvencia</span><span>150 €</span></div>
+        <div><b>Dekolt</b><span>Rádiofrekvencia</span><span>150 €</span></div>
+      </div>
+      <p class="map-note">Ilustračné priradenie ošetrení k zónam podľa cenníka (Notino).</p>
+    </div>
+  </div>
+</section>
+<div class="ruler" aria-hidden="true"></div>
+
+<div class="slot"><div class="wrap">
+  <p><b>Voľné termíny.</b> Na Facebooku hlásia voľné termíny na telové a pleťové ošetrenie (príspevok z 1. 10. 2026). Otváracie hodiny: na objednanie, zavolajte.<small>Dostupnosť si overte telefonicky, tu sa nedá objednať.</small></p>
+  <a class="btn" href="tel:+421918481340">Zavolať</a>
+</div></div>
+
+<section class="price" id="cennik">
+  <div class="wrap">
+    <div class="head">
+      <h2>Cenník</h2>
+      <p><b>Ceny podľa ponuky na Notino.sk (1. 10. 2026).</b> Každé ošetrenie má pri sebe trvanie aj cenu. Pred objednaním si aktuálnu cenu overte telefonicky.</p>
+    </div>
+    <div class="sheet">
+      <div class="bar"><b>Cenník ošetrení · Beauty salón Michaela</b><span>Platba: hotovosť aj karta</span></div>
+      <div class="cols">
+<details class="grp" open><summary><span class="gn">Kozmetické ošetrenia</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">BioRePeel</span><span class="d">1 h</span><span class="p">59 €</span></li><li><span class="n">Kyslíková terapia</span><span class="d">30 min</span><span class="p">12 €</span></li><li><span class="n">Hĺbkový peeling (Oxypeel)</span><span class="d">1 h</span><span class="p">59 €</span></li><li><span class="n">Chemický peeling</span><span class="d">45 min</span><span class="p">45 €</span></li><li><span class="n">Karbónový peeling · tvár</span><span class="d">1 h</span><span class="p">75 €</span></li><li><span class="n">Karbónový peeling · tvár, krk, dekolt</span><span class="d">1 h 30</span><span class="p">95 €</span></li><li><span class="n">Aquafacial · tvár</span><span class="d">1 h</span><span class="p">69 €</span></li><li><span class="n">Aquafacial · tvár, krk, dekolt</span><span class="d">1 h 30</span><span class="p">89 €</span></li><li><span class="n">LED terapia</span><span class="d">30 min</span><span class="p">80–120 €</span></li></ul></details>
+<details class="grp" open><summary><span class="gn">Estetické procedúry</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">Dermapen · tvár</span><span class="d">1 h</span><span class="p">120 €</span></li><li><span class="n">Dermapen · tvár, krk, dekolt</span><span class="d">1 h 10</span><span class="p">210 €</span></li><li><span class="n">Polynukleotidy</span><span class="d">1 h / 1 h 20</span><span class="p">120 / 210 €</span></li><li><span class="n">PDRN</span><span class="d">1 h</span><span class="p">120 €</span></li><li><span class="n">Plasma Pen · viečka (horné / dolné)</span><span class="d">1 h</span><span class="p">170 €</span></li><li><span class="n">Vrásky okolo očí</span><span class="d">1 h</span><span class="p">170 €</span></li><li><span class="n">Nasolabiálne ryhy + pery</span><span class="d">1 h</span><span class="p">200 €</span></li><li><span class="n">Celá tvár</span><span class="d">2 h</span><span class="p">550 €</span></li><li><span class="n">Obe viečka</span><span class="d">1 h 20</span><span class="p">300 €</span></li><li><span class="n">Konzultácia</span><span class="d">30 min</span><span class="p">30 €</span></li></ul></details>
+<details class="grp" open><summary><span class="gn">Rádiofrekvencia</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">Tvár</span><span class="d">1 h</span><span class="p">150 €</span></li><li><span class="n">Krk</span><span class="d">1 h</span><span class="p">150 €</span></li><li><span class="n">Dekolt</span><span class="d">1 h 20</span><span class="p">150 €</span></li><li><span class="n">Tvár + krk</span><span class="d">1 h</span><span class="p">200 €</span></li><li><span class="n">Tvár, krk, dekolt</span><span class="d">1 h 30</span><span class="p">300 €</span></li><li><span class="n">Brucho / sedacie svaly</span><span class="d">1 h</span><span class="p">100 €</span></li><li><span class="n">Stehná</span><span class="d">1 h</span><span class="p">200 €</span></li></ul></details>
+<details class="grp" open><summary><span class="gn">Telo</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">Endosphères</span><span class="d">1 h</span><span class="p">40 €</span></li><li><span class="n">Endosphères · balík 5 + 1 zdarma</span><span class="d"></span><span class="p">200 €</span></li><li><span class="n">Kryolipolýza · 1 oblasť</span><span class="d">45 min</span><span class="p">89 €</span></li><li><span class="n">Kryolipolýza · 2 oblasti</span><span class="d">1 h</span><span class="p">159 €</span></li><li><span class="n">EMS Zero · 1–2 oblasti</span><span class="d">30 min</span><span class="p">35–60 €</span></li><li><span class="n">Kavitácia + RF</span><span class="d">45 min – 1 h</span><span class="p">40–60 €</span></li><li><span class="n">Anticelulitídny zábal</span><span class="d">20 min</span><span class="p">25 €</span></li></ul></details>
+<details class="grp" open><summary><span class="gn">Laserová epilácia</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">Brada</span><span class="d">15 min</span><span class="p">20 €</span></li><li><span class="n">Horná pera</span><span class="d">10 min</span><span class="p">20 €</span></li><li><span class="n">Tvár</span><span class="d">20 min</span><span class="p">45 €</span></li><li><span class="n">Krk</span><span class="d">20 min</span><span class="p">30 €</span></li><li><span class="n">Predlaktia</span><span class="d">20 min</span><span class="p">50 €</span></li><li><span class="n">Sedacie svaly</span><span class="d">15 min</span><span class="p">35 €</span></li><li><span class="n">Brucho</span><span class="d">20–45 min</span><span class="p">45–50 €</span></li><li><span class="n">Hrudník</span><span class="d">20–25 min</span><span class="p">35–50 €</span></li><li><span class="n">Chrbát</span><span class="d">30–35 min</span><span class="p">70–80 €</span></li><li><span class="n">Ramená</span><span class="d">25 min</span><span class="p">45 €</span></li><li><span class="n">Paže</span><span class="d">25 min</span><span class="p">55–70 €</span></li><li><span class="n">Lýtka</span><span class="d">25–30 min</span><span class="p">80 €</span></li><li><span class="n">Stehná</span><span class="d">35–40 min</span><span class="p">60–80 €</span></li><li><span class="n">Podpazušie</span><span class="d">15 min</span><span class="p">30 €</span></li><li><span class="n">Kolená</span><span class="d">15 min</span><span class="p">25 €</span></li><li><span class="n">Bikiny klasik</span><span class="d">25 min</span><span class="p">30 €</span></li><li><span class="n">Bikiny plné</span><span class="d">30 min</span><span class="p">50 €</span></li><li><span class="n">Kombinované balíky</span><span class="d"></span><span class="p">55–150 €</span></li></ul></details>
+<details class="grp" open><summary><span class="gn">Obočie a mihalnice</span><span class="gc">trvanie · cena</span></summary><ul><li><span class="n">Úprava obočia</span><span class="d">15 min</span><span class="p">6 €</span></li><li><span class="n">Farbenie obočia</span><span class="d">15 min</span><span class="p">6 €</span></li><li><span class="n">Farbenie mihalníc</span><span class="d">15 min</span><span class="p">6 €</span></li><li><span class="n">Laminácia obočia</span><span class="d">1 h</span><span class="p">30 €</span></li><li><span class="n">Lash lifting</span><span class="d">1 h</span><span class="p">30 €</span></li><li><span class="n">Odstránenie PMU</span><span class="d">30 min</span><span class="p">60 €</span></li></ul></details>
+      </div>
+      <div class="foot"><span>Zdroj: profil salónu na Notino.sk, stav k 1. 10. 2026. Niektoré názvy sú skrátené.</span><a href="https://www.notino.sk/salony/beauty-salon-michaela/" target="_blank" rel="noopener">Celý cenník a termíny na Notino</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="o-salone">
+  <div class="wrap">
+    <blockquote>„pokročilé omladzujúce a formujúce procedúry tváre a tela“
+      <footer>Ako sa salón predstavuje na Notino.sk</footer>
+    </blockquote>
+    <div class="spec">
+      <h3>S čím pracujú</h3>
+      <ul><li>Plasma Lift</li><li>Microneedling</li><li>Rádiofrekvencia</li><li>Body sculpting</li></ul>
+      <p>Pracujú s kozmetikou LARENS Cosmetics a Aroma Derm.</p>
+      <small>Zdroj: profil salónu na Notino.sk.</small>
+    </div>
+  </div>
+</section>
+<div class="ruler" aria-hidden="true"></div>
+
+<section class="rate" id="hodnotenie">
+  <div class="wrap">
+    <h2>Hodnotenie</h2>
+    <div class="scale" aria-label="Orly Kozmetiky: 5,0 z 5">
+      <div class="r"></div><span class="mv">5,0</span><span class="m"></span>
+      <i style="left:0">0</i><i style="left:20%">1</i><i style="left:40%">2</i><i style="left:60%">3</i><i style="left:80%">4</i><i style="left:100%">5</i>
+    </div>
+    <div class="rgrid">
+      <div><b>5,0</b><span>Orly Kozmetiky</span><small>50 hodnotení</small></div>
+      <div><b>98 %</b><span>odporúča na Facebooku</span><small>51 hodnotení, 1. 10. 2026</small></div>
+      <div><b>5,0</b><span>Notino</span><small>1 recenzia</small></div>
+      <div><b>4 ×</b><span>zlatá medaila a laureát</span><small>Orly Kozmetiky 2022, 2023, 2024, 2025</small></div>
+    </div>
+    <p class="note">Len súhrn z verejných portálov, bez citovania jednotlivých recenzií. Počet hodnotení na Orly sa v zdrojoch mierne líši.</p>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="wrap">
+    <h2>Kontakt</h2>
+    <div class="cgrid">
+      <div>
+        <h3>Kde nás nájdete</h3>
+        <p>Hviezdoslavova 4 (1. poschodie)<br>911 01 Trenčín</p>
+        <span class="note">Parkovanie je platené v centre mesta.</span>
+        <div class="links"><a href="https://www.google.com/maps/search/Beauty+sal%C3%B3n+Michaela+Hviezdoslavova+4+Tren%C4%8D%C3%ADn" target="_blank" rel="noopener">Navigovať</a><a href="https://instagram.com/michaela_beauty_tn" target="_blank" rel="noopener">Instagram</a></div>
+      </div>
+      <div>
+        <h3>Telefón</h3>
+        <a class="big" href="tel:+421918481340">+421 918 481 340</a>
+        <span class="note">Termín sa dohaduje telefonicky alebo cez Notino.</span>
+        <div class="links"><a href="https://www.notino.sk/salony/beauty-salon-michaela/" target="_blank" rel="noopener">Objednať cez Notino</a></div>
+      </div>
+      <div>
+        <h3>Hodiny</h3>
+        <p>Na objednanie — zavolajte.</p>
+        <span class="note">Pevné otváracie hodiny salón nezverejňuje. Živý stav tu nezobrazujeme.</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="bot"><div class="wrap"><b>Michaela</b><span>Neoficiálny návrh webu · webdavid.sk · 2026</span></div></footer>
+
+<nav class="mbar" aria-label="Rýchle akcie"><a href="tel:+421918481340">Zavolať</a><a href="https://instagram.com/michaela_beauty_tn" target="_blank" rel="noopener">Instagram</a></nav>
+
+<script>
+(function(){try{if(window.matchMedia("(max-width:720px)").matches){var g=document.querySelectorAll(".grp");for(var i=1;i<g.length;i++)g[i].removeAttribute("open");}}catch(e){}})();
+</script>
