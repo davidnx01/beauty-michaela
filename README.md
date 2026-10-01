@@ -4,4 +4,4 @@
 
 Beauty salón Michaela
 
-Statická stránka bez build kroku: `index.html` + `assets/`.
+Statická stránka bez build kroku: `index.html`, `o-nas.html`, `kontakt.html` + `assets/`.

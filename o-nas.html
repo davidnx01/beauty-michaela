@@ -1,0 +1,356 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>O salóne · Beauty salón Michaela Trenčín — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh podstránky O nás pre Beauty salón Michaela, Hviezdoslavova 4, Trenčín.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231c2730'/%3E%3Cpath d='M9 24V8l7 10 7-10v16' fill='none' stroke='%23f5f6f4' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f6f4; --sheet:#fcfdfc; --panel:#e8ecea;
+  --ink:#1c2730; --ink-2:#2a3844; --mute:#5b6770; --mute-l:#a4b0b8;
+  --berry:#a3304f; --skin:#ecd2c1;
+  --line:rgba(28,39,48,.16); --line-s:rgba(28,39,48,.5); --line-l:rgba(245,246,244,.2);
+  --serif:"Bellefair","Times New Roman",serif; --sans:"Figtree",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--sans);font-size:16px;line-height:1.6;color:var(--ink);background:var(--paper)}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--berry);outline-offset:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;font-synthesis:none}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:20px}
+.eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.tn{font-variant-numeric:tabular-nums}
+
+.notice{background:var(--ink);color:#e4eaee;font-size:13px;line-height:1.45;padding:8px 0}
+.notice b{font-weight:700;color:#fff;letter-spacing:.04em;text-transform:uppercase;font-size:12px}
+
+/* milimetrová stupnica */
+.ruler{height:16px;color:var(--ink);background:
+  linear-gradient(currentColor,currentColor) 0 0/100% 1px no-repeat,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/60px 15px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/30px 9px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/6px 5px repeat-x;opacity:.55}
+.ruler.l{color:var(--paper);opacity:.5}
+
+header.top{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+header.top .wrap{display:flex;align-items:center;gap:26px;min-height:72px}
+.brand{text-decoration:none;line-height:1}
+.brand b{display:block;font-family:var(--serif);font-weight:400;font-size:34px;letter-spacing:.01em}
+.brand small{display:block;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-top:4px}
+nav.main{margin-left:auto;display:flex;gap:28px}
+nav.main a{font-size:14.5px;font-weight:500;text-decoration:none;padding:12px 0;background:linear-gradient(var(--berry),var(--berry)) 0 calc(100% - 8px)/0 1px no-repeat;transition:background-size .2s}
+nav.main a:hover{background-size:100% 1px}
+.tel{font-weight:600;font-size:16px;text-decoration:none;white-space:nowrap;font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;background:var(--berry);color:#fff;font-weight:600;font-size:15.5px;text-decoration:none;border-radius:2px;transition:background .2s}
+.btn:hover{background:#8b2542}
+.btn.o{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn.o:hover{background:var(--ink);color:var(--paper)}
+.btn.ol{background:transparent;color:var(--paper);box-shadow:inset 0 0 0 1px var(--mute-l)}
+.btn.ol:hover{background:var(--paper);color:var(--ink)}
+header.top .btn{min-height:44px;padding:0 20px}
+
+/* hero */
+.hero .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:44px;align-items:center;padding-block:46px 40px}
+.hero h1{font-size:clamp(46px,6vw,82px);line-height:1;letter-spacing:-.005em;margin-top:16px}
+.hero .lead{margin-top:20px;font-size:18px;max-width:27em;color:var(--ink-2)}
+.hero .cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}
+.proof{margin-top:38px;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+.proof div{padding:14px 14px 14px 0;border-bottom:1px solid var(--line)}
+.proof div:nth-child(even){padding-left:16px;border-left:1px solid var(--line)}
+.proof b{display:block;font-family:var(--serif);font-weight:400;font-size:36px;line-height:1;font-variant-numeric:tabular-nums}
+.proof span{display:block;font-size:13px;line-height:1.35;color:var(--mute);margin-top:5px}
+.map{position:relative;width:100%;aspect-ratio:560/530;background:var(--sheet);border:1px solid var(--line-s);container-type:inline-size}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.mk{position:absolute;width:26%;line-height:1.25;transform:translateY(-9px)}
+.mk.r{left:71.4%}
+.mk.l{right:calc(100% - 28.6%);text-align:right}
+.mk .z{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--berry)}
+.mk .t{display:block;font-family:var(--serif);font-size:19px;line-height:1.15;margin-top:5px}
+.mk .v{display:block;font-size:12.5px;color:var(--mute);margin-top:3px;font-variant-numeric:tabular-nums}
+.mk .v b{font-weight:600;color:var(--ink)}
+.map-note{margin-top:10px;font-size:12.5px;color:var(--mute)}
+.zones{display:none}
+
+.slot{background:var(--panel);border-block:1px solid var(--line)}
+.slot .wrap{display:flex;gap:16px 32px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:18px}
+.slot p{max-width:46em;font-size:15.5px}
+.slot p b{font-weight:600}
+.slot small{display:block;font-size:12.5px;color:var(--mute);margin-top:2px}
+
+/* cenník */
+.price{background:var(--ink);color:var(--paper);padding:0 0 76px}
+.price .head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:40px;align-items:end;padding-block:58px 34px}
+.price h2{font-size:clamp(52px,7.4vw,104px);line-height:.92}
+.price .head p{color:#c4ced5;font-size:15.5px}
+.price .head p b{color:#fff;font-weight:600}
+.sheet{background:var(--sheet);color:var(--ink);border-radius:2px;box-shadow:0 26px 50px rgba(0,0,0,.35)}
+.sheet .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 26px;border-bottom:2px solid var(--ink)}
+.sheet .bar b{font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.sheet .bar span{font-size:12.5px;color:var(--mute)}
+.cols{columns:2;column-gap:0;padding:0 0 6px}
+.grp{break-inside:avoid;padding:0 26px}
+.cols .grp:nth-child(odd){border-right:1px solid var(--line)}
+.grp summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;padding:22px 0 10px;border-bottom:1px solid var(--ink)}
+.grp summary::-webkit-details-marker{display:none}
+.gn{font-family:var(--serif);font-size:27px;line-height:1.1}
+.gc{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.grp ul{list-style:none;padding:0 0 12px}
+.grp li{display:grid;grid-template-columns:minmax(0,1fr) auto 92px;gap:14px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.35}
+.grp li:last-child{border-bottom:0}
+.grp .d{font-size:12.5px;color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums}
+.grp .p{font-weight:600;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sheet .foot{padding:14px 26px 18px;border-top:2px solid var(--ink);font-size:13px;color:var(--mute);display:flex;justify-content:space-between;gap:12px 28px;flex-wrap:wrap}
+.sheet .foot a{color:var(--ink);font-weight:600}
+
+
+/* salón */
+.salon{padding:84px 0 78px}
+.salon .wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:end}
+.salon h2{font-size:clamp(40px,4.2vw,56px);line-height:1;margin-top:12px}
+.salon .tx p{margin-top:18px;font-size:15.5px;color:var(--ink-2);max-width:20em}
+.salon .tx small{display:block;margin-top:14px;font-size:12.5px;color:var(--mute)}
+.board{display:flex;align-items:flex-end;gap:24px}
+.board figure{margin:0;flex:none}
+.board .ph{background:var(--sheet);padding:6px;border:1px solid var(--line-s)}
+.board img{width:100%;height:auto;display:block}
+.board .f1{width:259px}.board .f2{width:320px}.board .f3{width:274px}
+.board figcaption{margin-top:9px;padding-top:11px;font-size:12.5px;line-height:1.4;color:var(--mute);position:relative;
+  background:linear-gradient(90deg,var(--ink) 1px,transparent 1px) 0 0/8px 5px repeat-x,linear-gradient(var(--ink),var(--ink)) 0 0/100% 1px no-repeat}
+.flogo{height:70px;width:auto;filter:brightness(0) invert(1);opacity:.92}
+
+/* o salóne */
+.about{padding:84px 0 76px}
+.about .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:start}
+.about blockquote{text-wrap:balance;font-family:var(--serif);font-size:clamp(34px,4.6vw,60px);line-height:1.08}
+.about blockquote footer{margin-top:18px;font-family:var(--sans);font-size:13px;color:var(--mute);letter-spacing:.02em}
+.spec{border-top:1px solid var(--ink)}
+.spec h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding-top:16px}
+.spec ul{list-style:none;padding:8px 0 4px}
+.spec li{font-family:var(--serif);font-size:28px;line-height:1.15;padding:10px 0;border-bottom:1px solid var(--line)}
+.spec p{margin-top:14px;font-size:14.5px;color:var(--ink-2)}
+.spec small{display:block;margin-top:6px;font-size:12.5px;color:var(--mute)}
+
+/* hodnotenie */
+.rate{background:var(--panel);border-block:1px solid var(--line);padding:70px 0}
+.rate h2{font-size:clamp(40px,5vw,64px);line-height:1}
+.scale{position:relative;margin:42px 0 12px;height:54px}
+.scale .r{position:absolute;left:0;right:0;top:0;height:16px;color:var(--ink);background:
+  linear-gradient(currentColor,currentColor) 0 0/100% 1px no-repeat,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/20% 15px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/10% 9px repeat-x,
+  linear-gradient(90deg,currentColor 1px,transparent 1px) 0 0/2% 5px repeat-x;border-right:1px solid currentColor}
+.scale i{position:absolute;top:22px;font-style:normal;font-size:12px;font-weight:600;color:var(--mute);transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.scale i:first-of-type{transform:none}
+.scale i:last-of-type{transform:translateX(-100%)}
+.scale .m{position:absolute;right:0;top:-14px;width:0;height:0;border:7px solid transparent;border-top:12px solid var(--berry);border-bottom:0;transform:translateX(50%)}
+.scale .mv{position:absolute;right:0;top:-46px;transform:translateX(50%);font-family:var(--serif);font-size:30px;color:var(--berry);line-height:1}
+.rgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:1px solid var(--ink)}
+.rgrid div{padding:18px 18px 4px 0}
+.rgrid div+div{padding-left:18px;border-left:1px solid var(--line)}
+.rgrid b{display:block;font-family:var(--serif);font-weight:400;font-size:46px;line-height:1;font-variant-numeric:tabular-nums}
+.rgrid span{display:block;margin-top:8px;font-size:14px;color:var(--ink-2);line-height:1.4}
+.rgrid small{display:block;margin-top:4px;font-size:12.5px;color:var(--mute)}
+.rate .note{margin-top:22px;font-size:12.5px;color:var(--mute)}
+
+/* kontakt */
+.contact{padding:80px 0 70px}
+.contact h2{font-size:clamp(46px,6vw,80px);line-height:1}
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:34px;border-top:1px solid var(--ink)}
+.cgrid>div{padding:24px 28px 8px 0}
+.cgrid>div+div{padding-left:28px;border-left:1px solid var(--line)}
+.cgrid h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
+.cgrid p{font-size:17px;line-height:1.55}
+.cgrid .big{font-family:var(--serif);font-size:clamp(30px,3.2vw,42px);line-height:1.05;text-decoration:none;display:inline-block;font-variant-numeric:tabular-nums}
+.cgrid .note{display:block;margin-top:8px;font-size:13px;color:var(--mute);line-height:1.5}
+.links{margin-top:14px;display:flex;flex-wrap:wrap;gap:4px 22px}
+.links a{font-size:14.5px;font-weight:600;padding:11px 0;text-decoration:none;background:linear-gradient(var(--berry),var(--berry)) 0 calc(100% - 7px)/100% 1px no-repeat;transition:background-size .2s}
+.links a:hover{background-size:100% 3px}
+.cgrid ul{list-style:none;padding:0;font-size:15.5px}
+.cgrid li{padding:6px 0;border-bottom:1px solid var(--line)}
+
+footer.bot{background:var(--ink);color:var(--mute-l);font-size:14px;padding:26px 0 30px}
+footer.bot .wrap{display:flex;justify-content:space-between;gap:10px 28px;flex-wrap:wrap;align-items:baseline}
+footer.bot b{font-family:var(--serif);font-weight:400;font-size:24px;color:var(--paper)}
+.mbar{display:none}
+
+@media (max-width:1040px){
+  .hero .wrap{grid-template-columns:1fr;gap:32px}
+  .map{max-width:720px;margin-inline:auto}
+  .price .head{grid-template-columns:1fr;gap:16px;padding-block:44px 26px}
+  .salon .wrap{grid-template-columns:1fr;gap:34px;align-items:start}
+  .board{justify-content:flex-start;flex-wrap:wrap}
+  .about .wrap{grid-template-columns:1fr;gap:40px}
+  .rgrid{grid-template-columns:1fr 1fr}
+  .rgrid div:nth-child(3){padding-left:0;border-left:0}
+  .rgrid div:nth-child(n+3){border-top:1px solid var(--line);margin-top:18px}
+  .cgrid{grid-template-columns:1fr}
+  .cgrid>div,.cgrid>div+div{padding:22px 0 12px;border-left:0;border-bottom:1px solid var(--line)}
+  nav.main{display:none}
+  header.top .tel{margin-left:auto}
+}
+@media (max-width:720px){
+  .cols{columns:1}
+  .cols .grp:nth-child(odd){border-right:0}
+  .grp{padding:0 16px}
+  .grp summary{padding:18px 0 14px;min-height:56px;align-items:center;border-bottom:0}
+  .grp[open] summary{border-bottom:1px solid var(--ink)}
+  .grp+.grp{border-top:1px solid var(--line)}
+  .gc{display:none}
+  .gn::after{content:"";display:inline-block;width:9px;height:9px;margin-left:12px;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:translateY(-3px) rotate(45deg);transition:transform .2s}
+  .grp summary{justify-content:space-between}
+  .grp[open] .gn::after{transform:translateY(1px) rotate(-135deg)}
+  .grp summary{flex-direction:row}
+  .salon{padding:56px 0}
+  .board{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+  .board .f1{grid-row:1/3;width:auto}.board .f2,.board .f3{width:auto}
+  .sheet .bar,.sheet .foot{padding-inline:16px}
+  .grp li{grid-template-columns:minmax(0,1fr) auto;row-gap:0}
+  .grp .n{grid-column:1/-1}
+  .grp .d{grid-column:1;grid-row:2}
+  .grp .p{grid-column:2;grid-row:2}
+}
+@media (max-width:640px){
+  .notice{font-size:12.5px}
+  header.top .tel,header.top .btn{display:none}
+  .brand b{font-size:30px}
+  .hero .wrap{padding-block:30px 28px}
+  .mk{width:29%;transform:translateY(-7px)}
+  .mk .z{font-size:10px;letter-spacing:.08em}
+  .mk .t,.mk .v{display:none}
+  .mk.r{left:70%}
+  .mk.l{right:calc(100% - 30%)}
+  .zones{display:block;margin-top:14px;border-top:1px solid var(--ink)}
+  .zones div{display:grid;grid-template-columns:92px 1fr auto;gap:8px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.3}
+  .zones b{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--berry)}
+  .zones span:last-child{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .proof b{font-size:32px}
+  .rgrid{grid-template-columns:1fr}
+  .rgrid div,.rgrid div+div,.rgrid div:nth-child(3){padding:16px 0 12px;border-left:0;margin-top:0;border-top:0;border-bottom:1px solid var(--line)}
+  .about{padding:56px 0}
+  .spec li{font-size:25px}
+  .scale i:nth-of-type(2),.scale i:nth-of-type(4){display:none}
+  footer.bot{padding-bottom:calc(86px + env(safe-area-inset-bottom))}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--ink);padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -1px 0 rgba(255,255,255,.12)}
+  .mbar a{display:flex;align-items:center;justify-content:center;min-height:56px;color:var(--paper);font-weight:600;font-size:16px;text-decoration:none}
+  .mbar a:first-child{background:var(--berry);color:#fff}
+  .mbar a+a{border-left:1px solid rgba(255,255,255,.14)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.page-h{padding:64px 0 36px}
+.page-h h1{font-size:clamp(46px,6vw,84px);line-height:1;margin-top:14px}
+.page-h .lead{margin-top:18px;font-size:18px;max-width:34em;color:var(--ink-2)}
+.crumb{font-size:13px;color:var(--mute)}.crumb a{text-decoration:none;font-weight:600;color:var(--ink)}
+nav.main a[aria-current]{background-size:100% 1px}
+.two{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:start;padding:56px 20px 64px}
+.two p{font-size:17px;line-height:1.65;color:var(--ink-2);max-width:34em}.two p+p{margin-top:16px}
+.list{border-top:1px solid var(--ink)}
+.list h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding-top:16px}
+.list ul{list-style:none;padding:8px 0 0}
+.list li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);font-size:16px}
+.list li span:last-child{color:var(--mute);font-size:13.5px;text-align:right}
+.list small{display:block;margin-top:10px;font-size:12.5px;color:var(--mute)}
+.band{background:var(--ink);color:var(--paper);padding:60px 0}
+.band h2{font-size:clamp(38px,4.6vw,60px);line-height:1}
+.band .grid4{display:grid;grid-template-columns:repeat(4,1fr);margin-top:30px;border-top:1px solid var(--line-l)}
+.band .grid4 div{padding:18px 18px 4px 0}.band .grid4 div+div{padding-left:18px;border-left:1px solid var(--line-l)}
+.band .grid4 b{display:block;font-family:var(--serif);font-weight:400;font-size:46px;line-height:1;font-variant-numeric:tabular-nums}
+.band .grid4 span{display:block;margin-top:8px;font-size:14px;color:#c4ced5;line-height:1.4}
+.band .note{margin-top:20px;font-size:12.5px;color:var(--mute-l)}
+.cta-row{padding:56px 0 70px}.cta-row .wrap{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;justify-content:space-between}
+.cta-row p{font-family:var(--serif);font-size:clamp(28px,3.4vw,42px);line-height:1.1;max-width:20em}
+.cta-row .cta{display:flex;flex-wrap:wrap;gap:12px}
+.steps{counter-reset:s;list-style:none;padding:8px 0 0}
+.steps li{counter-increment:s;display:grid;grid-template-columns:40px 1fr;gap:8px;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.5}
+.steps li span{text-align:left;color:inherit;font-size:inherit}
+.steps li::before{content:counter(s);font-family:var(--serif);font-size:28px;line-height:1;color:var(--berry);font-variant-numeric:tabular-nums}
+.big-a{font-family:var(--serif);font-size:clamp(34px,4.2vw,54px);line-height:1.05;text-decoration:none;display:inline-block;font-variant-numeric:tabular-nums}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--ink);margin-top:34px}
+.facts>div{padding:22px 28px 14px 0;border-bottom:1px solid var(--line)}
+.facts>div:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
+.facts h3{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-bottom:10px}
+.facts p{font-size:17px;line-height:1.55}.facts .note{display:block;margin-top:8px;font-size:13px;color:var(--mute);line-height:1.5}
+@media (max-width:1040px){.two{grid-template-columns:1fr;gap:36px}.band .grid4{grid-template-columns:1fr 1fr}.band .grid4 div:nth-child(3){padding-left:0;border-left:0}.band .grid4 div:nth-child(n+3){border-top:1px solid var(--line-l);margin-top:18px}.facts{grid-template-columns:1fr}.facts>div,.facts>div:nth-child(even){padding:20px 0 12px;border-left:0}}
+@media (max-width:640px){.page-h{padding:40px 0 20px}.band .grid4{grid-template-columns:1fr}.band .grid4 div,.band .grid4 div+div,.band .grid4 div:nth-child(3){padding:16px 0 12px;border-left:0;margin-top:0;border-top:0;border-bottom:1px solid var(--line-l)}.cta-row .cta .btn{flex:1}}
+</style>
+
+<div class="notice"><div class="wrap"><b>Neoficiálny návrh</b> — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Beauty salón Michaela — domov"><b>Michaela</b><small>Beauty salón · Trenčín</small></a>
+    <nav class="main" aria-label="Hlavné menu"><a href="index.html#cennik">Cenník</a><a href="index.html#salon">Salón</a><a href="index.html#hodnotenie">Hodnotenie</a><a href="o-nas.html" aria-current="page">O nás</a><a href="kontakt.html">Kontakt</a></nav>
+    <a class="tel" href="tel:+421918481340">+421 918 481 340</a>
+    <a class="btn" href="tel:+421918481340">Zavolať</a>
+  </div>
+</header>
+<main>
+<section class="page-h"><div class="wrap">
+  <p class="crumb"><a href="index.html">Domov</a> · O nás</p>
+  <h1>O salóne</h1>
+  <p class="lead">Kozmetický salón na prvom poschodí na Hviezdoslavovej 4 v Trenčíne. Zameriava sa na ošetrenia pleti a tela.</p>
+</div></section>
+<div class="ruler" aria-hidden="true"></div>
+
+<section class="wrap two">
+  <div>
+    <p>Salón sa na Notino.sk predstavuje ako miesto pre „pokročilé omladzujúce a formujúce procedúry tváre a tela“. V ponuke sú pleťové ošetrenia, estetické procedúry, rádiofrekvencia, ošetrenia tela, laserová epilácia a starostlivosť o obočie a mihalnice.</p>
+    <p>Pracujú s technológiami ako Plasma Lift, microneedling, rádiofrekvencia a body sculpting a s kozmetikou LARENS Cosmetics a Aroma Derm.</p>
+    <p>Termín sa dohaduje telefonicky alebo cez Notino, hodiny sú na objednanie. Platba je možná hotovosťou aj kartou.</p>
+    <small style="display:block;margin-top:18px;font-size:12.5px;color:var(--mute)">Zdroj: profil salónu na Notino.sk (1. 10. 2026). Text pre ostrý web by sa dopísal so salónom.</small>
+  </div>
+  <div class="list">
+    <h3>Čomu sa venujú</h3>
+    <ul>
+      <li><span>Kozmetické ošetrenia</span><span>9 položiek</span></li>
+      <li><span>Estetické procedúry</span><span>10 položiek</span></li>
+      <li><span>Rádiofrekvencia</span><span>7 položiek</span></li>
+      <li><span>Telo</span><span>7 položiek</span></li>
+      <li><span>Laserová epilácia</span><span>18 položiek</span></li>
+      <li><span>Obočie a mihalnice</span><span>6 položiek</span></li>
+    </ul>
+    <small>Počty položiek podľa cenníka v demu. <a href="index.html#cennik"><b>Celý cenník</b></a></small>
+  </div>
+</section>
+
+<section class="salon" id="salon">
+  <div class="wrap">
+    <div class="tx">
+      <p class="eyebrow">Prostredie</p>
+      <h2>Pohľad do salónu</h2>
+      <p>Biele ošetrovacie lôžka, jemné závesy a teplé svetlo.</p>
+      <small>Fotky: Facebook salónu, výrezy.</small>
+    </div>
+    <div class="board">
+      <figure class="f1"><div class="ph"><img src="assets/salon-zavesy.webp" width="247" height="501" loading="lazy" alt="Svetlý záves stiahnutý šnúrkou a zelený prehoz na lôžku v salóne"></div><figcaption>Závesy a lôžka</figcaption></figure>
+      <figure class="f2"><div class="ph"><img src="assets/salon-lozko-podsvietenie.webp" width="348" height="279" loading="lazy" alt="Biele ošetrovacie lôžko s podsvietenou kovovou základňou a tlačidlami"></div><figcaption>Podsvietená základňa ošetrovacieho lôžka</figcaption></figure>
+      <figure class="f3"><div class="ph"><img src="assets/salon-svietnik.webp" width="262" height="310" loading="lazy" alt="Nástenný svietnik so sviečkou v bielom ráme na stene"></div><figcaption>Nástenný svietnik v ráme</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Čo o salóne hovoria verejné portály</h2>
+    <div class="grid4">
+      <div><b>5,0</b><span>Orly Kozmetiky, 50 hodnotení</span></div>
+      <div><b>98 %</b><span>odporúča na Facebooku, 51 hodnotení</span></div>
+      <div><b>4 ×</b><span>zlatá medaila a laureát, Orly Kozmetiky 2022–2025</span></div>
+      <div><b>14K</b><span>sledovateľov na Facebooku</span></div>
+    </div>
+    <p class="note">Len súhrn z verejných portálov, bez citovania jednotlivých recenzií. Počet hodnotení na Orly sa v zdrojoch mierne líši.</p>
+  </div>
+</section>
+
+<section class="cta-row"><div class="wrap">
+  <p>Termín si dohodnete telefonicky.</p>
+  <div class="cta"><a class="btn" href="tel:+421918481340">Zavolať +421 918 481 340</a><a class="btn o" href="kontakt.html">Kontakt a adresa</a></div>
+</div></section>
+</main>
+<footer class="bot"><div class="wrap"><img class="flogo" src="assets/logo-mb.webp" width="220" height="125" loading="lazy" alt="Logo Beauty Salon Michaela (MB)"><span>Neoficiálny návrh webu · webdavid.sk · 2026</span></div></footer>
+<nav class="mbar" aria-label="Rýchle akcie"><a href="tel:+421918481340">Zavolať</a><a href="https://instagram.com/michaela_beauty_tn" target="_blank" rel="noopener">Instagram</a></nav>
